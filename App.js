@@ -1,12 +1,30 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View } from "react-native";
+import { NavigationContainer } from "@react-navigation/native";
+import 'react-native-gesture-handler';
+import NavigationDrawer from "./src/navigation/NavigationDrawer";
+
+import Navigation from "./src/navigation/Navigation";
+//import Navigation from "./src/navigation/NavigationPokedex";
+//import Navigation from "./src/navigation/NavigationMainEscolarex";
+
+import {AuthProvider} from "./src/context/AuthContext"
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <NavigationContainer>
+      
+      {
+        /* <View style={styles.container}>
+        <Text>Que chimba esto mka</Text>
+      </View>  
+      
+      <NavigationDrawer></NavigationDrawer>*/
+      }
+
+      <AuthProvider>
+          <Navigation /> 
+      </AuthProvider>
+    </NavigationContainer>
   );
 }
 

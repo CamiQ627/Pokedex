@@ -1,23 +1,30 @@
 {
   "expo": {
-    "name": "EscolarexProfessor",
-    "slug": "EscolarexProfessor",
-    "version": "1.0.0",
+    "name": "Pokedex",
+    "slug": "pokedx",
+    "version": "1.1.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#fff"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "buildNumber":"1",
+      "supportsTablet": true,
+      "icon": "./assets/icon.png",
+      "bundleIdentifier": "com.myapp.pokedx"
     },
     "android": {
+      "versionCode": 1 ,
+      "icon": "./assets/icon.png",
+      "package": "com.myapp.pokedx",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -25,6 +32,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "de40dc1b-52b0-4ec7-91b2-203ccea446d7"
+      }
     }
   }
 }
