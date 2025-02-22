@@ -20,6 +20,30 @@ La Pokedex es una aplicación que permite al usuario explorar una lista de Poké
 
 El objetivo fundamental de este proyecto fue aprender a implementar animaciones y gestos en React Native
 
+
+La app está compuesta por tres iconos principales:
+* * Favoritos
+* * Lista de pokemones
+* * Login
+
+![IMG_7708](https://github.com/user-attachments/assets/5bd3a8b3-aa3e-4242-8226-c24b966833a0)
+
+La app está planeada para que posteriormente se agregue las url de la API del servidor que contendría a los usuarios.
+Para esta DEMO se ha establecido un usuario por default con el que simulará el ingreso, los datos son:
+* * Us: camiq
+* * Pass: 123456
+
+Una vez que se ha iniciado sesión, las pantallas se actualizan mostrando la vista de Favoritos.
+    
+ ![IMG_7714-_2_](https://github.com/user-attachments/assets/8e21f0bb-dff0-4538-a0f4-5eba6bcd22c5)
+
+
+La sección de datos del usuario logeado se mantuvo con un formato básico.
+
+![photo_5030973426537442931_y](https://github.com/user-attachments/assets/18fec6ea-8a76-472a-a095-13c560a7f9fe)
+
+
+
 ## Tecnologías
 
 * Expo
@@ -48,7 +72,7 @@ El objetivo fundamental de este proyecto fue aprender a implementar animaciones 
 
   - Datos del login:
     * username: "camiq"
-    * password:"123456"
+    * password: "123456"
 
 
 
